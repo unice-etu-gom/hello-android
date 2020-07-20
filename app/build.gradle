@@ -20,6 +20,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    // If the abortOnError is true the build will fail if there is a lint
+    // error in the project.
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
