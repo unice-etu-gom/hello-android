@@ -26,6 +26,13 @@ android:
     - sys-img-armeabi-v7a-android-17
 
 
+  #   Licenses
+  licenses:
+    - 'android-sdk-preview-license-52d11cd2'
+    - 'android-sdk-license-.+'
+    - 'google-gdk-license-.+'
+
+
 
 #   Caching
 # A peculiarity of dependency caching in Gradle means that to avoid uploading the cache after every
