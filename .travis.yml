@@ -103,4 +103,5 @@ before_script:
 
 script:
   # Command `./gradlew connectedCheck` executes instrumentation tests located in src/androidTests/
-  - "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
+  #- "./gradlew clean build connectedCheck -PdisablePreDex --stacktrace"
+  - "./gradlew clean build -PdisablePreDex --stacktrace"
